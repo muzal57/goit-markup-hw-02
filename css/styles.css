@@ -8,6 +8,10 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+ul {
+  list-style: none;
+}
 /*  -------------HEADER-------------  */
 .header-logo {
   font-family: "Raleway", sans-serif;
