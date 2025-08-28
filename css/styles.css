@@ -1,5 +1,25 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 /*  -------------HEADER-------------  */
 .header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -18,13 +38,33 @@
   color: #2e2f42;
 }
 
+.header-link:hover {
+  color: #404bbf;
+}
+
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-contacts {
+  font-style: normal;
+}
+
+.header-contact {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-contact:hover {
+  color: #404bbf;
+}
+
+.header-contact:focus {
+  color: #404bbf;
 }
 
 /* -----------------HERO----------------- */
@@ -49,8 +89,17 @@
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 /* -------------FEATURES------------- */
 
 .features-item {
@@ -73,6 +122,10 @@
 
 /* -----------------TEAM------------------ */
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -81,9 +134,14 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.team-members {
+.team-member {
+  background-color: #ffffff;
+}
+
+.team-member-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -104,6 +162,10 @@
 }
 
 /* -------------------FOOTER--------------------- */
+
+.footer {
+  background-color: #2e2f42;
+}
 
 .footer-link {
   font-family: "Raleway", sans-serif;
