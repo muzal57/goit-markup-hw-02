@@ -167,6 +167,9 @@ a {
   background-color: #2e2f42;
 }
 
+.footer-logo-span {
+  color: #f4f4fd;
+}
 .footer-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -174,7 +177,7 @@ a {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .footer-desc {
